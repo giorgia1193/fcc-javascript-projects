@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>RPG Creature Search</title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+
+  <body>
+    <main class="card">
+      <h1>RPG Creature Search</h1>
+
+      <form id="search-form" class="search-row">
+        <label class="sr-only" for="search-input">Search creature</label>
+        <input
+          id="search-input"
+          type="text"
+          required
+          placeholder="Search by name or id (es. Pyrolynx / 2)"
+          autocomplete="off"/>
+        <button id="search-button" type="submit">Search</button>
+      </form>
+
+      <section class="results">
+        <header class="topline">
+          <div class="name-id">
+            <p id="creature-name" class="creature-name">—</p>
+            <p id="creature-id" class="creature-id">—</p>
+          </div>
+
+          <div class="meta">
+            <p id="weight" class="pill">Weight: —</p>
+            <p id="height" class="pill">Height: —</p>
+          </div>
+        </header>
+
+        <div class="types-wrap">
+          <h2 class="section-title">Types</h2>
+          <div id="types" class="types"></div>
+        </div>
+
+        <div class="stats">
+          <h2 class="section-title">Stats</h2>
+
+          <div class="grid">
+            <div class="stat">
+              <span class="k">HP</span>
+              <span id="hp" class="v">—</span>
+            </div>
+            <div class="stat">
+              <span class="k">Attack</span>
+              <span id="attack" class="v">—</span>
+            </div>
+            <div class="stat">
+              <span class="k">Defense</span>
+              <span id="defense" class="v">—</span>
+            </div>
+            <div class="stat">
+              <span class="k">Special Attack</span>
+              <span id="special-attack" class="v">—</span>
+            </div>
+            <div class="stat">
+              <span class="k">Special Defense</span>
+              <span id="special-defense" class="v">—</span>
+            </div>
+            <div class="stat">
+              <span class="k">Speed</span>
+              <span id="speed" class="v">—</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
