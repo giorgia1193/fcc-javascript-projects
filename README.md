@@ -44,6 +44,21 @@ https://giorgia1193.github.io/fcc-javascript-projects/Cash-Register/
 
 ---
 
+### Palindrome Checker
+A JavaScript app that checks whether a given text is a palindrome (ignoring punctuation, spacing, and case).
+
+**Features:**
+- Normalizes input (case-insensitive + removes symbols)
+- Instant result display
+- Clean, simple UI
+- Vanilla JavaScript (ES6)
+
+🔗 **Live Demo**  
+https://giorgia1193.github.io/fcc-javascript-projects/Palindrome-Checker/
+
+📁 **Source code**  
+`/Palindrome-Checker`
+
 *(More projects will be added as part of the certification path.)*
 
 ---
