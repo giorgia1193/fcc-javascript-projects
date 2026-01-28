@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cash Register Project</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <main class="card">
+        <h1>Cash Register</h1>
+
+        <div class="price-screen">
+            <span class="price-label">Total to Pay:</span>
+            <span id="price-display" class="price-value"></span>
+        </div>
+        <br>
+        <div class="input-container">
+            <label class="label" for="cash">Cash Given:</label>
+            <div class="row">
+                <input
+                    id="cash"
+                    type="number"
+                    step="0.01"
+                    placeholder="0.00"
+                    required
+                />
+                <button id="purchase-btn" type="button">Purchase</button>
+            </div>
+            <p class="hint">
+                Enter the amount of cash provided by the customer.
+            </p>
+        </div>
+
+        <div class="output-container">
+            <p class="output-label">Change Due:</p>
+            <div id="change-due" class="output" aria-live="polite">
+            </div>
+        </div>
+
+        <section class="drawer-info">
+            <h2>Cash in Drawer</h2>
+            <div id="cid-display" class="cid-grid">
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
