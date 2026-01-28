@@ -59,7 +59,22 @@ https://giorgia1193.github.io/fcc-javascript-projects/Palindrome-Checker/
 📁 **Source code**  
 `/Palindrome-Checker`
 
-*(More projects will be added as part of the certification path.)*
+---
+
+### Roman Numeral Converter
+A JavaScript app that converts numbers into Roman numerals following standard Roman numeral rules.
+
+**Features:**
+- Converts integers into Roman numerals (I, V, X, L, C, D, M)
+- Handles subtractive notation (IV, IX, XL, XC, CD, CM)
+- Clear UI + instant output
+- Vanilla JavaScript (ES6)
+
+🔗 **Live Demo**  
+https://giorgia1193.github.io/fcc-javascript-projects/Roman-Numeral-Converter/
+
+📁 **Source code**  
+`/Roman-Numeral-Converter`
 
 ---
 
