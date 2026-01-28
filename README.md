@@ -78,6 +78,24 @@ https://giorgia1193.github.io/fcc-javascript-projects/Roman-Numeral-Converter/
 
 ---
 
+### Telephone Number Validator
+A JavaScript app that validates US phone numbers using regex rules from the freeCodeCamp project requirements.
+
+**Features:**
+- Validates multiple accepted US formats
+- Uses regex-based validation
+- Shows clear valid/invalid output
+- Clean UI + responsive layout
+- Vanilla JavaScript (ES6)
+
+🔗 **Live Demo**  
+https://giorgia1193.github.io/fcc-javascript-projects/Telephone-Number-Validator/
+
+📁 **Source code**  
+`/Telephone-Number-Validator`
+
+---
+
 ## 🛠 Tech Stack
 - HTML5
 - CSS3
